@@ -1,66 +1,60 @@
 @font-face {
-    font-family: cursedTimer;
-    src: url(CursedTimerUlil-Aznm.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: cursedTimer;
+  src: url(CursedTimerUlil-Aznm.ttf);
+  font-weight: normal;
+  font-style: normal;
 }
 body {
-    margin: 0;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    background-color: #075985;
-    width: 600px;
-    border-radius: 15px;
-
+  display: flex;
+  justify-content: space-around;
+  background-color: #075985;
+  width: 600px;
+  border-radius: 15px;
 }
 
-h3{
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 25px;
-    padding-top: 15px ;
-    color: #A7F3D0;
-;
-    
+h3 {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 25px;
+  padding-top: 15px;
+  color: #a7f3d0;
 }
 .score-num {
-    background-color: #1F2937;
-    text-align: center;
-    font-size: 70px;
-    padding: 50px;
-    color: #F59E0B;
-    font-family: cursedTimer;
-    border-radius: 10px;
-    margin: 25px ;
-    
+  background-color: #1f2937;
+  text-align: center;
+  font-size: 70px;
+  padding: 50px;
+  color: #f59e0b;
+  font-family: cursedTimer;
+  border-radius: 10px;
+  margin: 25px;
 }
-.btn-box{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    ;
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-button{
-    font-family: cursedTimer;
-    width: 40px;
-    height: 40px;
-    border-radius: 5px;
-    color: #A7F3D0;
-    background-color: #075985;
-    border: solid 2px #A7F3D0;
-    margin-right: 4px
-
-;
+button {
+  font-family: cursedTimer;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  color: #a7f3d0;
+  background-color: #075985;
+  border: solid 2px #a7f3d0;
+  margin-right: 4px;
 }
 
 .reset-btn {
-    width: auto;
-    margin-top: 15px;
+  width: auto;
+  margin-top: 15px;
 }
